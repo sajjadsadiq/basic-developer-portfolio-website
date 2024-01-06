@@ -35,6 +35,22 @@ body {
   cursor: pointer;
 }
 
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 30px 0;
+}
+
 /* Header Section Start */
 header {
   background: #fff8f3;
@@ -128,3 +144,42 @@ nav ul li a {
 }
 
 /* Banner Secttion End */
+
+/* Main Section Start */
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* About Section Start  */
+.about {
+  padding: 180px 160px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 100px 0;
+}
+
+.about-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-info {
+  text-align: center;
+}
+
+.about-info p {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.about-info strong {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* About Section End */
+/* Main Section End */
