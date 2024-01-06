@@ -13,14 +13,42 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.btn-primary {
+  border: 0;
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: white;
+  padding: 18px 36px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  border-radius: 5px;
+  border: 2px solid #fd6e0a;
+  color: #fd6e0a;
+  background-color: white;
+  padding: 18px 36px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
 /* Header Section Start */
 header {
   background: #fff8f3;
+  background-image: url("../asstes/img/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
 }
 
 nav h1 {
@@ -50,14 +78,51 @@ nav ul li a {
   font-size: 20px;
 }
 
-nav ul button {
-  border: 0;
-  border-radius: 5px;
-  background: #fd6e0a;
-  color: white;
-  padding: 18px 36px;
-  font-size: 20px;
-  font-weight: 700;
-}
 /* Header Section End */
 
+/* Banner Secttion Starat */
+.banner {
+  display: flex;
+  height: 590px;
+  align-items: center;
+}
+.banner-left {
+  margin-left: 132px;
+}
+.banner-left h4 {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.banner-left p {
+  padding: 20px 0;
+}
+
+.banner-right img {
+  width: 540px;
+  margin-bottom: 30px;
+  margin-right: 100px;
+}
+
+.banner-left h1 {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+}
+
+.banner-left p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.button-container,
+.btn-banner {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+/* Banner Secttion End */
