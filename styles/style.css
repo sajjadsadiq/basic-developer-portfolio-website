@@ -1,5 +1,63 @@
+/* Google Fonts Import - Open Sans */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
+/* Common Styles */
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Header Section Start */
+header {
+  background: #fff8f3;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h1 {
+  font-size: 45px;
+  font-weight: 800;
+}
+
+nav h1 span {
+  color: #fd6e0a;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+}
+
+nav ul button {
+  border: 0;
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: white;
+  padding: 18px 36px;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* Header Section End */
+
