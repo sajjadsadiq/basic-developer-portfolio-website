@@ -218,4 +218,77 @@ main {
   margin: 15px 0;
 }
 /* Skills Section End */
+
+/* Resume Section Start */
+.resume {
+  margin: 100px 0;
+}
+
+.resume-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 150px;
+}
+
+.resume-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.resume-sub-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.resume-description {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.resume-sub-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+.resume-box {
+  margin-top: 30px;
+}
+
+.resume-box hr {
+  margin: 30px 0;
+  background: #d1d1d1;
+  height: 1px;
+}
+
+.btn-resume {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.btn-resume button {
+  border: 0;
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: white;
+  padding: 18px 36px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-resume button i {
+  margin-right: 20px;
+}
+/* Resume Section End */
 /* Main Section End */
