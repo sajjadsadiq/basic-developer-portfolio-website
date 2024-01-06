@@ -38,9 +38,11 @@ body {
 /* Header Section Start */
 header {
   background: #fff8f3;
-  background-image: url("../asstes/img/header_bg.png");
-  background-repeat: no-repeat;
-  background-position: bottom right;
+  background-image: url("../asstes/img/header_bg.png"),
+    url("../asstes/img/developer.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom right, 20px 50px;
+  background-size: 800px, 85px;
 }
 nav {
   display: flex;
