@@ -292,3 +292,63 @@ main {
 }
 /* Resume Section End */
 /* Main Section End */
+
+/* Footer Section Start */
+footer {
+  background: #fff8f3;
+  padding: 130px 0;
+}
+
+.footer-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.footer-left,
+.footer-right {
+  width: 50%;
+}
+
+.footer-title {
+  color: #181818;
+  text-align: left;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.footer-social {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 24px;
+  height: 24px;
+}
+
+.footer-right form input {
+  width: 461px;
+  height: 64px;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  outline: none;
+  margin: 15px 0;
+  color: #757575;
+  font-size: 16px;
+}
+
+.footer-right form textarea {
+  width: 461px;
+  height: 180px;
+  border-radius: 5px;
+  background: #fff;
+  padding: 20px;
+  border: none;
+  outline: none;
+  color: #757575;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+/* Footer Section End */
