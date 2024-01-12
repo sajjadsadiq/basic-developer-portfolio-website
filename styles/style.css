@@ -352,3 +352,23 @@ footer {
   margin-bottom: 20px;
 }
 /* Footer Section End */
+
+/* -------------------- */
+/* Responsive Styles & Media Query */
+/* -------------------- */
+
+/* Mobil Device */
+@media screen and (max-width: 576px) {
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skills-description {
+    padding: 0;
+  }
+  .skill-box {
+    width: 100%;
+    height: 100%;
+    padding: 100px 40px;
+  }
+}
